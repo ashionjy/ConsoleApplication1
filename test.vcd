@@ -1,0 +1,28 @@
+$date
+     Jun 13, 2022       17:25:40
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Mar 15 2022 17:17:50
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire   127  aaaaa  neg_out [126:0]  $end
+$var wire    1  aaaab  pwm_rising_edge       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b1000000000000000000000000000000000000000000000000000000011111 aaaaa
+1aaaab
+$end
+
+#10000000
